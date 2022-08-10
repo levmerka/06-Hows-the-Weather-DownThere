@@ -7,16 +7,53 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></script>
+
     <title>Whether Weather Weathers Wetter</title>
   </head>
 
   <body>
-    <header>
+    <header class="p-5 text-center bg-image rounded-3 ae-head">
       <h1>How's The Weather Down There?</h1>
     </header>
 
-    <main></main>
-  </body>
+    <main class="container float-left sidebar column">
+      <nav id="sidebar" class="order-last">
+        <h4>Open Weather API</h4>
+        <div>
+          <form class="subscribe-form">
+            <input
+              id="userInput"
+              type="text"
+              class="form-control"
+              placeholder="enter city"
+            />
+          </form>
+        </div>
+      </nav>
 
-  <script src="./script.js"></script>
+      <section>
+        <ul id="ae-list" class="list-unstyled components mb-5">
+          <li>
+            <a href="#Los Angeles" class="default hou">Los Angeles</a>
+          </li>
+          <li>
+            <a href="#Austin" class="default atx">Austin</a>
+          </li>
+          <li>
+            <a href="#Atlanta" class="default dtx">Atlanta</a>
+          </li>
+          <li>
+            <a href="#Chicago" class="default chi">Chicago</a>
+          </li>
+          <li>
+            <a href="#NYC" class="default lv">New York City</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
