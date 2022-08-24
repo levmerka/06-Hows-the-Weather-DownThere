@@ -11,35 +11,25 @@ Work in progress
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributors](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ## Description
 
-
+An online lnading page with weather dashboard using HTML and JavaScript!
 
   <img src="" alt="" />
 
 ## Installation
-
+Just open the html in a browser to make api calls using my key
   <img src="" alt="" />
 
 ## Usage
 
-use free on heroku! : 
+Free to use 
+API keys available [here](https://openweathermap.org) 
 
   <img src="" alt="" />
 
-
-
-## Contributing
-
-
-
-## Tests
-
-
-  <img src="" alt="" />
 
 ## Questions?
 
